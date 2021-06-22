@@ -1,11 +1,10 @@
-full_title: Fifth ACM/IEEE Workshop on Hot Topics in Web Systems and Technologies
-short_title: Hotweb 2017
-email: hotweb2017@gmail.com
+full_title: Data Literacies Workshop
+short_title: CLS 2021
+email: st3f@uw.edu 
 description: > # this means to ignore newlines until "baseurl:"
-  HotWeb is a forum bringing together researchers and practitioners interested 
-  in the design, implementation, and evaluation of Internet systems and applications. 
-location: San Jose, CA, 2017
-date: October 14, 2017
+  Data Literacies is a workshop 
+location: online 
+date: June 2021
 logo_path: ./assets/images/logo2017.jpg
 slideshow:
   - id: 0
