@@ -8,65 +8,40 @@ date: June 2021
 logo_path: ./assets/images/logo2017.jpg
 slideshow:
   - id: 0
-    image_path: ./assets/images/slideshow/image0.jpg
+    image_path: ./assets/images/slideshow//Users/st3f/Projects/DataLiteracies/data_literacy.jpeg
     description: San Jose night scene
     photographer_name: Mike Boening
     photographer_link: https://www.flickr.com/photos/memoriesbymike/
     active: True
-  - id: 1
-    image_path: ./assets/images/slideshow/image1.jpg
-    description: San Jose Museum of Art
-    photographer_name: Bryan Nabong
-    photographer_link: https://www.flickr.com/photos/bongarang/
-  - id: 2
-    image_path: ./assets/images/slideshow/image2.jpg
-    description: San Jose State University
-    photographer_name: David Sawyer
-    photographer_link: https://www.flickr.com/photos/18702768@N04/
-  - id: 3
-    image_path: ./assets/images/slideshow/image3.jpg
-    description: Cathedral Basilica of St. Joseph
-    photographer_name: Patricia Montes Gregory
-    photographer_link: https://www.flickr.com/photos/32159045@N02/
-  - id: 4
-    image_path: ./assets/images/slideshow/image4.jpg
-    description: Winchester Mystery House
-    photographer_name: Pomax
-    photographer_link: https://www.flickr.com/photos/pomax/
-  - id: 5
-    image_path: ./assets/images/slideshow/image5.jpg
-    description: Rose Garden Branch Library
-    photographer_name: John Menard
-    photographer_link: https://www.flickr.com/photos/jmenard48/
 navbar:
   - id: 0
     label: Home
     path: /
     visible: True
   - id: 1
-    label: Organization
-    path: /organization.html
+    label: Organizers
+    path: /organizers.html
     visible: True
   - id: 2
-    label: Call for Papers
+    label: Call for Participation
     path: /cfp.html
     visible: True
   - id: 3
     label: Submission
     path: /submission.html
-    visible: True
+    visible: false
   - id: 4
-    label: Programs
-    path: /program.html
+    label: Schedule
+    path: /schedule.html
     visible: True
   - id: 5
     label: Venue
     path: /venue.html
-    visible: True
+    visible: false
   - id: 6
     label: Registration
     path: /registration.html
-    visible: True
+    visible: false
 deadlines:
   - date: 2017-7-6
     timezone: 9PM PDT
