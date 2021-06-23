@@ -1,17 +1,17 @@
 full_title: Data Literacies Workshop
-short_title: CLS 2021
+short_title: Connected Learning Summit 2021
 email: st3f@uw.edu 
 description: > # this means to ignore newlines until "baseurl:"
-  Data Literacies is a workshop 
-location: online 
-date: June 2021
-logo_path: ./assets/images/logo2017.jpg
+
+location: 
+date: July 13 & 15 2021
+logo_path: ./assets/images/logo-CLS.png
 slideshow:
   - id: 0
-    image_path: ./assets/images/slideshow//Users/st3f/Projects/DataLiteracies/data_literacy.jpeg
-    description: San Jose night scene
-    photographer_name: Mike Boening
-    photographer_link: https://www.flickr.com/photos/memoriesbymike/
+    image_path: ./assets/images/slideshow/data_literacy.jpeg
+    description: Data Literacy Visualization 
+    photographer_name: John Sucich 
+    photographer_link: https://www.dimins.com/blog/2020/02/27/improving-data-literacy/
     active: True
 navbar:
   - id: 0
@@ -20,10 +20,10 @@ navbar:
     visible: True
   - id: 1
     label: Organizers
-    path: /organizers.html
+    path: /committees.html
     visible: True
   - id: 2
-    label: Call for Participation
+    label: Workshop Registration
     path: /cfp.html
     visible: True
   - id: 3
@@ -32,7 +32,7 @@ navbar:
     visible: false
   - id: 4
     label: Schedule
-    path: /schedule.html
+    path: /program.html
     visible: True
   - id: 5
     label: Venue
@@ -43,117 +43,54 @@ navbar:
     path: /registration.html
     visible: false
 deadlines:
-  - date: 2017-7-6
-    timezone: 9PM PDT
-    text: Submission deadline (extended)
+  - date: 2021-07-10
+    timezone: 9PM PST
+    text: Pre-registration Workshop
     pass_due: False
-  - date: 2017-8-7
+  - date:  2021-07-11
     text: Notification of acceptance
     pass_due: False
-  - date: 2017-8-17
-    text: Camera-ready copy due
+  - date: 2021-07-13
+    text: Workshop day 1 
     pass_due: False
-  - date: 2017-10-14
-    text: Workshop
+  - date: 2021-07-15
+    text: Workshop day 2
     pass_due: False
 news:
-  - date: 2017-10-14
-    text: Workshop has been successfully held
-  - date: 2017-05-12
-    text: Submission site online
-  - date: 2017-03-08
+  - date: 2021-06-10
+    text: Pre-registration ends
+  - date: 2021-06-24
     text: Website online
-sponsors:
-  - name: ACM
-    logo_path: ./assets/images/sponsors/acm-logo.png
-  - name: IEEE
-    logo_path: ./assets/images/sponsors/ieee-logo.gif
-social_media:
-  facebook_link: https://www.facebook.com/hotwebseries/
-  twitter_link:
-program_chair:
-  - name: Qun Li
-    org: College of William and Mary (USA)
-    homepage: http://www.cs.wm.edu/~liqun
-  - name: Songqing Chen
-    org: George Mason University (USA)
-    homepage: http://www.cs.gmu.edu/~sqchen/
-steering_committees:
-  - name: Azer Bestavros
-    org: Boston University (USA)
-    homepage: http://azer.bestavros.net/
-  - name: Songqing Chen
-    org: George Mason University (USA)
-    homepage: http://www.cs.gmu.edu/~sqchen/
-  - name: Fred Douglis
-    org: Dell EMC (USA)
-    homepage: http://www.douglis.org/fred/
-  - name: Arun Iyengar
-    org: IBM (USA)
-    homepage: http://researcher.watson.ibm.com/researcher/view.php?person=us-aruni
-  - name: Michael Rabinovich
-    org: Case Western Reserve University (USA)
-    homepage: http://engr.case.edu/rabinovich_michael/
-  - name: Pablo Rodriguez
-    org: Telefonica Research (Spain)
-    homepage: http://www.rodriguezrodriguez.com/
-  - name: Weisong Shi
-    org: Wayne State University (USA)
-    homepage: http://www.cs.wayne.edu/~weisong/
-technical_program_committees:
-  - name: Azer Bestavros 
-    org: Boston University (USA)
-    homepage: http://www.bu.edu/cs/azer-bestavros/
-  - name: Pei Cao
-    org: Google (USA)
-    homepage: http://crypto.stanford.edu/~cao/
-  - name: Brian Davison
-    org: Lehigh University (USA)
-    homepage: http://www.cse.lehigh.edu/~brian/
-  - name: Fred Douglis
-    org: Dell EMC (USA)
-    homepage: http://www.douglis.org/fred/
-  - name: Giancarlo Fortino
-    org: University of Calabria (Italy)
-    homepage: http://si.deis.unical.it/fortino/
-  - name: Lei Guo
-    org: Google (USA)
-    homepage: https://scholar.google.com/citations?user=h6Nw2X4AAAAJ&hl=en
-  - name: Yang Guo
-    org: NIST (USA)
-    homepage: https://sites.google.com/site/yangguohomepage/
-  - name: Arun Iyengar
-    org: IBM (USA)
-    homepage: http://researcher.watson.ibm.com/researcher/view.php?person=us-aruni
-  - name: Aziz Mohaisen
-    org: SUNY Buffalo (USA)
-    homepage: http://www.cse.buffalo.edu/~mohaisen/
-  - name: Guillaume Pierre
-    org: Rennes 1 University (France)
-    homepage: http://www.globule.org/~gpierre/
-  - name: Michael Rabinovich
-    org: Case Western Reserve University (USA)
-    homepage: http://engr.case.edu/rabinovich_michael/
-  - name: Thomas Steiner
-    org: Google (Germany)
-    homepage: https://research.google.com/pubs/author39477.html
-  - name: Christopher Stewart
-    org: Ohio State University (USA)
-    homepage: http://web.cse.ohio-state.edu/~stewart.962/
-  - name: Vishy Swaminathan
-    org: Adobe Research (USA)
-    homepage: https://research.adobe.com/person/vishy-swaminathan/
-  - name: Qingyang Wang
-    org: Louisiana State University (USA)
-    homepage: http://csc.lsu.edu/~qywang/
-  - name: Craig Wills
-    org: Worcester Polytechnic Institute (USA)
-    homepage: http://web.cs.wpi.edu/~cew/
-  - name: Yifan Zhang
-    org: SUNY Binghamton (USA)
-    homepage: http://www.cs.binghamton.edu/~zhangy/
-webmaster:
-  - name: Shanhe Yi
-    org: College of William and Mary (USA)
-    homepage: http://www.cs.wm.edu/~syi
 
+organizing_committees:
+  - name: Stefania Druga
+    org: iSchool, University of Washington
+    homepage: https://stefania11.github.io/
+  - name: Regina Cheng
+    org: HCDE, University of Washington
+    homepage: https://reginachangzhou.github.io/
+  - name: Emilia Gan
+    org: CSE, University of Washington
+    homepage: https://emilia.cloud/
+steering_committees:
+  - name: Victor Lee
+    org: Stanford University
+    homepage: http://victor-r-lee.com/
+  - name: Camillia Matuk
+    org: New York University
+    homepage: https://steinhardt.nyu.edu/people/camillia-matuk
+  - name: Yasmin B. Kafai
+    org: University of Pennsylvania
+    homepage: http://www.yasminkafai.com/
+  - name: Catherine D'Ignazio
+    org: MIT
+    homepage: http://www.kanarinka.com/
+  - name: Rahul Bhargava
+    org: Northeastern University
+    homepage: https://home.connectionlab.org/rahul-bhargava/
+  - name: Andee Rubin
+    org: TERC
+    homepage: https://www.terc.edu/profiles/andee-rubin/
+  - name: Tamara Clegg
+    org: University of Maryland
+    homepage: https://education.umd.edu/directory/tamara-clegg
