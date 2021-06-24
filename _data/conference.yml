@@ -1,10 +1,10 @@
-full_title: The Workshop of Imagining Future Designs of Tools For Youth Data Literacies
+full_title: Imagining Future Designs of Tools For Youth Data Literacies Workshop
 short_title: Connected Learning Summit 2021
 email: st3f@uw.edu 
 description: > # this means to ignore newlines until "baseurl:"
 
 location: 
-date: July 13 & 15 2021
+date: July 13 & 15, 2021
 logo_path: ./assets/images/logo-CLS.png
 slideshow:
   - id: 0
@@ -29,16 +29,13 @@ navbar:
 deadlines:
   - date: 2021-07-10
     timezone: 9PM PST
-    text: Deadline for pre-registration
-    pass_due: False
-  - date:  2021-07-11
-    text: Notification of Acceptance
+    text: Deadline for Pre-registration
     pass_due: False
   - date: 2021-07-13
-    text: Workshop Part 1
+    text: Workshop Session 1
     pass_due: False
   - date: 2021-07-15
-    text: Workshop Part 2
+    text: Workshop Session 2
     pass_due: False
 news:
   - date: 2021-07-10
@@ -57,24 +54,27 @@ organizing_committees:
     org: CSE, University of Washington
     homepage: https://emilia.cloud/
 steering_committees:
+  - name: Rahul Bhargava
+    org: Northeastern University
+    homepage: https://home.connectionlab.org/rahul-bhargava/
+  - name: Tamara Clegg
+    org: University of Maryland
+    homepage: https://education.umd.edu/directory/tamara-clegg
+  - name: Catherine D'Ignazio
+    org: MIT
+    homepage: http://www.kanarinka.com/
+  - name: Benjamin Mako Hill
+    org: University of Washington
+    homepage: http://mako.cc/
+  - name: Yasmin B. Kafai
+    org: University of Pennsylvania
+    homepage: http://www.yasminkafai.com/
   - name: Victor Lee
     org: Stanford University
     homepage: http://victor-r-lee.com/
   - name: Camillia Matuk
     org: New York University
     homepage: https://steinhardt.nyu.edu/people/camillia-matuk
-  - name: Yasmin B. Kafai
-    org: University of Pennsylvania
-    homepage: http://www.yasminkafai.com/
-  - name: Catherine D'Ignazio
-    org: MIT
-    homepage: http://www.kanarinka.com/
-  - name: Rahul Bhargava
-    org: Northeastern University
-    homepage: https://home.connectionlab.org/rahul-bhargava/
   - name: Andee Rubin
     org: TERC
     homepage: https://www.terc.edu/profiles/andee-rubin/
-  - name: Tamara Clegg
-    org: University of Maryland
-    homepage: https://education.umd.edu/directory/tamara-clegg
