@@ -6,9 +6,9 @@
 
             <div class="jumbotron">
                 <img class="img-fluid" src="{{ site.data.conference.logo_path }}">
-                <h5 class="text-center mt-0">{{ site.data.conference.date }}</h5>
-                <p class="text-center mt-4 mb-4">{{ site.data.conference.full_title }}</p>
-                <p class="text-center mb-0">{{ site.data.conference.location }}</p>
+                <h5 class="text-center mt-1">{{ site.data.conference.date }}</h5>
+                <p class="text-center mt-6 mb-6">{{ site.data.conference.full_title }}</p>
+                <p class="text-center mb-1">{{ site.data.conference.location }}</p>
             </div>
 
         </div>     
@@ -21,11 +21,9 @@
                         <div class="carousel-inner" role="listbox">
                             
                             {% for slide in site.data.conference.slideshow %}
-                            {% if page.slide_id and page.slide_id  == slide.id %}
+
                             <div class="carousel-item active">
-                            {% else %}
-                            <div class="carousel-item">
-                            {% endif %}
+
                                 <!--<img class="img-fluid" src="{{ site.baseurl }}{{ slide.image_path }}" alt="{{ slide.description }}">-->
                                 <img class="img-fluid" src="{{ slide.image_path }}" alt="{{ slide.description }}">
                                 <div class="carousel-caption d-none d-md-block text-muted">
