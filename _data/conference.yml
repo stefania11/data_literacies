@@ -4,7 +4,7 @@ email: data.literacies@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 
 location: 
-date: July 13 & 15 2021
+date: July 13 & 15, 2021
 logo_path: ./assets/images/logo-CLS.png
 slideshow:
   - id: 0
@@ -33,7 +33,7 @@ navbar:
 deadlines:
   - date: 2021-07-10
     timezone: 9PM PST
-    text: Last day for pre-registration
+    text: Pre-registration ends
     pass_due: False
   - date: 2021-07-13
     text: Workshop Session 1
@@ -58,24 +58,27 @@ organizing_committees:
     org: CSE, University of Washington
     homepage: https://emilia.cloud/
 steering_committees:
+  - name: Rahul Bhargava
+    org: Northeastern University
+    homepage: https://home.connectionlab.org/rahul-bhargava/
+  - name: Tamara Clegg
+    org: University of Maryland
+    homepage: https://education.umd.edu/directory/tamara-clegg
+  - name: Catherine D'Ignazio
+    org: MIT
+    homepage: http://www.kanarinka.com/
+  - name: Benjamin Mako Hill
+    org: University of Washington
+    homepage: http://mako.cc/
+  - name: Yasmin B. Kafai
+    org: University of Pennsylvania
+    homepage: http://www.yasminkafai.com/
   - name: Victor Lee
     org: Stanford University
     homepage: http://victor-r-lee.com/
   - name: Camillia Matuk
     org: New York University
     homepage: https://steinhardt.nyu.edu/people/camillia-matuk
-  - name: Yasmin B. Kafai
-    org: University of Pennsylvania
-    homepage: http://www.yasminkafai.com/
-  - name: Catherine D'Ignazio
-    org: MIT
-    homepage: http://www.kanarinka.com/
-  - name: Rahul Bhargava
-    org: Northeastern University
-    homepage: https://home.connectionlab.org/rahul-bhargava/
   - name: Andee Rubin
     org: TERC
     homepage: https://www.terc.edu/profiles/andee-rubin/
-  - name: Tamara Clegg
-    org: University of Maryland
-    homepage: https://education.umd.edu/directory/tamara-clegg
