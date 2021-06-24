@@ -11,21 +11,21 @@ slide_id: 4
         </p>
         {% for day in site.data.schedule %}
         <div>
-            <h4 class="schedule-table-heading">{{ day.dateReadable }} - Day {{ forloop.index }}</h4>
+            <h4 class="schedule-table-heading">{{ day.dateReadable }} - Session {{ forloop.index }}</h4>
             <table class="table table-bordered table-striped table-hover table-responsive table-sm">
             {% for timeslot in day.timeslots %}
                     <thead>
                             <tr>
-                                <th class="bg-info text-center">
-                                        <div>{{timeslot.startTime}}-{{timeslot.endTime}}</div>
+                                <th class="bg-info">
+                                        <div><h6>{{timeslot.startTime}}-{{timeslot.endTime}}</h6></div>
                                 </th>
                                 {% if timeslot.type == "service" %}
-                                    <th class="bg-warning text-center">
-                                            <p class="text-muted">{{timeslot.title}}</p>
+                                    <th class="bg-warning">
+                                            <p class="text-muted"><h6>{{timeslot.title}}</h6></p>
                                     </th>
                                 {% else %}
-                                    <th class="bg-primary text-center">
-                                            <h5>{{timeslot.title}}</h5>
+                                    <th class="bg-primary">
+                                            <h6>{{timeslot.title}}</h6>
                                             {% if timeslot.speaker %}
                                             <h5>{{timeslot.speaker}}</h5>
                                             {% endif %}

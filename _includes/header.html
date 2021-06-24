@@ -4,10 +4,10 @@
         <!--conference info-->
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 col-xl-4 offset-xl-1">
 
-            <div class="jumbotron">
+            <div class="jumbotron test">
                 <img class="img-fluid" src="{{ site.data.conference.logo_path }}">
                 <h5 class="text-center mt-1">{{ site.data.conference.date }}</h5>
-                <p class="text-center mt-6 mb-6">{{ site.data.conference.full_title }}</p>
+                <p class="text-center">{{ site.data.conference.full_title }}</p>
                 <p class="text-center mb-1">{{ site.data.conference.location }}</p>
             </div>
 
@@ -50,7 +50,7 @@
                     </button>
                     <div class="collapse navbar-collapse " id="navbarToggler">
                         <a class="navbar-brand" href="#"> </a>
-                        <ul class="navbar-nav mx-auto text-center">
+                        <ul class="navbar-nav text-center">
                             {% for nav in site.data.conference.navbar %}
                                 {% if nav.visible %}
                                     {% if page.url == nav.path %}
