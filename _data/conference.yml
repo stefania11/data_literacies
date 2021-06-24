@@ -30,6 +30,10 @@ navbar:
     label: Workshop Paper
     path: /paper.html
     visible: True
+  - id: 4
+    label: Example Tools
+    path: /tools.html
+    visible: True
 deadlines:
   - date: 2021-07-10
     timezone: 9PM PST
