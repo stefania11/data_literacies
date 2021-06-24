@@ -1,4 +1,4 @@
-full_title: The Workshop of Imagining Future Designs of Tools For Youth Data Literacies
+full_title: Future Tools For Youth Data Literacies Workshop
 short_title: Connected Learning Summit 2021
 email: st3f@uw.edu 
 description: > # this means to ignore newlines until "baseurl:"
@@ -26,23 +26,24 @@ navbar:
     label: Schedule
     path: /program.html
     visible: True
+  - id: 3
+    label: Workshop Paper
+    photographer_link: https://drive.google.com/file/d/1ZpfR4XK7txudD9-T6h3rqEQEcqzmBjsC/view?usp=sharing
+    visible: True
 deadlines:
   - date: 2021-07-10
     timezone: 9PM PST
-    text: Deadline for pre-registration
-    pass_due: False
-  - date:  2021-07-11
-    text: Notification of Acceptance
+    text: Last day for pre-registration
     pass_due: False
   - date: 2021-07-13
-    text: Workshop Part 1
+    text: Workshop Session 1
     pass_due: False
   - date: 2021-07-15
-    text: Workshop Part 2
+    text: Workshop Session 2
     pass_due: False
 news:
   - date: 2021-07-10
-    text: Pre-registration Ends
+    text: Pre-registration last day 
   - date: 2021-06-24
     text: Website online
 
