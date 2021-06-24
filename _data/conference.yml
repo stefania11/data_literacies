@@ -45,20 +45,20 @@ navbar:
 deadlines:
   - date: 2021-07-10
     timezone: 9PM PST
-    text: Pre-registration Workshop
+    text: Deadline for pre-registration
     pass_due: False
   - date:  2021-07-11
-    text: Notification of acceptance
+    text: Notification of Acceptance
     pass_due: False
   - date: 2021-07-13
-    text: Workshop day 1 
+    text: Workshop Part 1
     pass_due: False
   - date: 2021-07-15
-    text: Workshop day 2
+    text: Workshop Part 2
     pass_due: False
 news:
   - date: 2021-07-10
-    text: Pre-registration ends
+    text: Pre-registration Ends
   - date: 2021-06-24
     text: Website online
 
