@@ -1,6 +1,6 @@
 full_title: Future Tools For Youth Data Literacies Workshop
 short_title: Connected Learning Summit 2021
-email: st3f@uw.edu 
+email: data.literacies@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 
 location: 
@@ -28,7 +28,7 @@ navbar:
     visible: True
   - id: 3
     label: Workshop Paper
-    photographer_link: https://drive.google.com/file/d/1ZpfR4XK7txudD9-T6h3rqEQEcqzmBjsC/view?usp=sharing
+    path: /paper.html
     visible: True
 deadlines:
   - date: 2021-07-10
