@@ -28,3 +28,5 @@ exclude:
 timezone: America/New_York
 google_analytics: G-2FWYFZHLEB
 
+
+theme: jekyll-theme-cayman
